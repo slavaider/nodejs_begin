@@ -1,0 +1,8 @@
+const path = require('path')
+console.log(__filename)
+console.log('--basename--\n', path.basename(__filename))
+console.log('--dirname--\n', path.dirname(__filename))
+console.log('--extname--\n', path.extname(__filename))
+console.log('--parse--\n', path.parse(__filename))
+console.log(path.join(__dirname,'res','lol.txt'))
+console.log(path.resolve(__dirname,'./res','/lol.txt'))
